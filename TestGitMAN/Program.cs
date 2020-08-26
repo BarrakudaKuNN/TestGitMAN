@@ -10,6 +10,14 @@ namespace TestGitMAN
     {
         static void Main(string[] args)
         {
+            Pekor Vladik = new Pekor();
+            Bulka bulka = new Bulka();
+
+            Vladik.DelatKovrishka(bulka,"Kovrishka");
+
+            
+
+
             Console.WriteLine("HI im TEST 1");
             Console.ReadLine();
         }

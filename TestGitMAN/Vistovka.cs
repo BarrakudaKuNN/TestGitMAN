@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestGitMAN
 {
-    public class Bulka
+    class Vistovka
     {
-        public string Weigth;
-        public string Name;
+        public Vistovka(Pekor pek)
+        {
+            
+        }
 
     }
 }

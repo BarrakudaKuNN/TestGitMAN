@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bulka.cs" />
+    <Compile Include="Pekor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistovka.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
