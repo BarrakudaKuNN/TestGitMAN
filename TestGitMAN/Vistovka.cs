@@ -10,8 +10,12 @@ namespace TestGitMAN
     {
         public Vistovka(Pekor pek)
         {
-            
-        }
+            foreach (var item in pek.PlatoBulok)
+            {
+                Console.WriteLine(item.Name + " " + item.Weigth);
+            }
 
+        }
+        
     }
 }

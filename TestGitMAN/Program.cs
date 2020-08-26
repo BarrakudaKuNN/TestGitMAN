@@ -14,11 +14,12 @@ namespace TestGitMAN
             Bulka bulka = new Bulka();
 
             Vladik.DelatKovrishka(bulka,"Kovrishka");
+            
+            var vistovka = new Vistovka(Vladik);
+
+
 
             
-
-
-            Console.WriteLine("HI im TEST 1");
             Console.ReadLine();
         }
     }

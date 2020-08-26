@@ -8,25 +8,22 @@ namespace TestGitMAN
 {
     class Pekor
     {
-        List<Bulka> PlatoBulok = new List<Bulka>();
-        private string name;
-        private string weight;
+        public List<Bulka> PlatoBulok = new List<Bulka>();
         
 
-
-        public List<Bulka> DelatKovrishka(Bulka bul, string name)
+        public void DelatKovrishka(Bulka bul, string name)
         {
-            for (int i = 0; i < 10; i++)
+            
+            var random = new Random(Guid.NewGuid().ToByteArray().Sum(x => x));
+            for (int i = 0; i < 3; i++)
             {
-                Random random = new Random(DateTime.Now.Second);
-               
+                bul = new Bulka();
                 bul.Name= name;
                 bul.Weigth = random.Next(1, 20).ToString() + " " + "KG";
-
+                
                 PlatoBulok.Add(bul);
              }
-            return PlatoBulok;
-
+            
         }
 
     }
