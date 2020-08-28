@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestGitMAN
 {
-    class Vistovka
+    class Vistavka
     {
-        public Vistovka(Pekor pek)
+        public Vistavka(Pekor pek)
         {
             foreach (var item in pek.PlatoBulok)
             {

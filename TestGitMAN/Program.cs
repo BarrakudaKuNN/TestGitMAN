@@ -13,7 +13,7 @@ namespace TestGitMAN
             Pekor Vladik = new Pekor(new Bulka(), "Kovrishka");
             
             
-            var vistovka = new Vistovka(Vladik);
+            var vistavka = new Vistavka(Vladik);
 
 
 
